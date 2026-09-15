@@ -678,7 +678,11 @@ async function togglePiP() {
         }
         
         // 搬运卡片到 PiP 窗口
-        const app = getElement('app');
+        const app = document.getElementById('app');
+        if (!app) {
+            console.error('找不到 app 元素');
+            return;
+        }
         pipWindow.document.body.appendChild(app);
         
         // 在 PiP 窗口重新绑定事件
