@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试执行器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- 顶栏 -->
+        <header class="top-bar">
+            <button class="btn-pip" id="btnPip" title="Ctrl+P 置顶">📌 置顶</button>
+            <button class="btn-history" id="btnHistory" title="查看已提交">📋 已提交</button>
+            <button class="btn-clear" id="btnClear" title="清空本地进度">🗑️ 清空进度</button>
+            <button class="btn-help" id="btnHelp" title="? 快捷键">❓</button>
+        </header>
+
+        <!-- 进度条：14 格 -->
+        <div class="progress-bar" id="progressBar"></div>
+
+        <!-- 卡片容器 -->
+        <div class="card" id="card">
+            <header class="card-header">
+                <h1 class="case-title" id="caseTitle"></h1>
+                <span class="case-counter" id="caseCounter"></span>
+            </header>
+
+            <div class="case-meta" id="caseMeta"></div>
+            <div class="case-requirement" id="caseRequirement"></div>
+            
+            <section class="case-section" id="sectionPreconditions">
+                <h3>前置条件</h3>
+                <ul id="preconditionsList"></ul>
+            </section>
+            
+            <section class="case-section" id="sectionTestData">
+                <h3>测试数据</h3>
+                <ul id="testDataList"></ul>
+            </section>
+            
+            <section class="case-section" id="sectionSteps">
+                <h3>执行步骤</h3>
+                <ol id="stepsList"></ol>
+            </section>
+            
+            <section class="case-section" id="sectionCheckpoints">
+                <h3 id="checkpointsTitle">预期结果</h3>
+                <ol id="checkpointsList"></ol>
+            </section>
+            
+            <div class="case-tags" id="caseTags"></div>
+
+            <!-- 主态：三个按钮 -->
+            <div class="actions" id="mainActions">
+                <button class="btn btn-pass" id="btnPass">✓ 通过</button>
+                <button class="btn btn-fail" id="btnFail">✗ 不通过</button>
+                <button class="btn btn-skip" id="btnSkip">⊘ 跳过</button>
+            </div>
+
+            <!-- 不通过态：表单 -->
+            <div class="fail-form hidden" id="failForm">
+                <div class="form-group">
+                    <label>说明 <span class="required">必填</span></label>
+                    <textarea class="input-note" id="inputNote" placeholder="描述发现的问题..." rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>控制台报错 <span class="optional">选填</span></label>
+                    <textarea class="input-console" id="inputConsole" placeholder="粘贴控制台报错信息..." rows="4"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>截图 <span class="optional">选填 · Ctrl+V 粘贴</span></label>
+                    <div class="image-preview" id="imagePreview"></div>
+                    <div class="paste-hint" id="pasteHint">
+                        <span>📎 在卡片上直接按 Ctrl+V 粘贴截图</span>
+                    </div>
+                </div>
+
+                <div class="form-notice">
+                    提交后同时写入：测试流程记录 1 条 + bug 报告 1 条
+                </div>
+
+                <div class="actions">
+                    <button class="btn btn-submit" id="btnSubmit">✓ 确认提交并写下一条</button>
+                    <button class="btn btn-cancel" id="btnCancel">✗ 取消</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 错误提示 -->
+        <div class="error-bar hidden" id="errorBar">
+            <div class="error-content">
+                <strong class="error-title"></strong>
+                <p class="error-message"></p>
+                <p class="error-hint"></p>
+            </div>
+            <button class="btn-retry" id="btnRetry">🔄 重试</button>
+            <button class="btn-close-error" id="btnCloseError">✕</button>
+        </div>
+
+        <!-- 加载中 -->
+        <div class="loading hidden" id="loading">
+            <div class="spinner"></div>
+            <p>提交中...</p>
+        </div>
+    </div>
+
+    <!-- 已提交列表弹窗 -->
+    <div class="modal hidden" id="modalHistory">
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2>已提交列表</h2>
+                <button class="btn-close-modal" id="btnCloseHistory">✕</button>
+            </header>
+            <div class="modal-body" id="historyList"></div>
+        </div>
+    </div>
+
+    <!-- 快捷键帮助弹窗 -->
+    <div class="modal hidden" id="modalHelp">
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2>快捷键</h2>
+                <button class="btn-close-modal" id="btnCloseHelp">✕</button>
+            </header>
+            <div class="modal-body">
+                <table class="shortcuts-table">
+                    <tr><td><kbd>Enter</kbd></td><td>通过 / 提交表单</td></tr>
+                    <tr><td><kbd>Backspace</kbd></td><td>标记为不通过</td></tr>
+                    <tr><td><kbd>Ctrl</kbd> + <kbd>B</kbd></td><td>跳过这条用例</td></tr>
+                    <tr><td><kbd>←</kbd> <kbd>→</kbd></td><td>上一条 / 下一条</td></tr>
+                    <tr><td><kbd>Ctrl</kbd> + <kbd>Z</kbd></td><td>撤销上一条</td></tr>
+                    <tr><td><kbd>Ctrl</kbd> + <kbd>V</kbd></td><td>粘贴截图</td></tr>
+                    <tr><td><kbd>Ctrl</kbd> + <kbd>P</kbd></td><td>切换置顶浮窗</td></tr>
+                    <tr><td><kbd>Esc</kbd></td><td>关闭表单/弹窗</td></tr>
+                    <tr><td><kbd>?</kbd></td><td>显示此帮助</td></tr>
+                </table>
+                <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #334155; font-size: var(--font-small); color: var(--text-secondary);">
+                    <p><strong>💾 本地进度保存</strong></p>
+                    <p>已测试的用例会自动保存在本地，刷新页面后自动恢复。点击进度条可跳转到指定用例。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

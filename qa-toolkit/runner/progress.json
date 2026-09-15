@@ -1,0 +1,97 @@
+{
+  "session": "2026-09-15",
+  "reporter": "Max",
+  "cursor": 0,
+  "records": {
+    "B-001": {
+      "result": "通过",
+      "record_id": "recvviMsDMPAyE",
+      "bug_record_id": null,
+      "submitted_at": 1789484945523,
+      "note": "",
+      "console": "",
+      "images": [],
+      "last_fields": {
+        "用例": "B-001 后台三要素登录",
+        "结果": "通过",
+        "优先级": "P0",
+        "负责人": "待指派",
+        "报告人": "Max",
+        "日期": 1789444800000
+      }
+    },
+    "B-003": {
+      "result": "不通过",
+      "record_id": "recvviMyzOXSbe",
+      "bug_record_id": "recvviMyW5MMxF",
+      "submitted_at": 1789484969725,
+      "note": "三段齐全\r\n节点等级 / 说明 / 原价(U) / 权益方案 / 节点奖励比例 / 直推奖励比例 / 状态 / 最后修改 / 操作\r\n1,000 U；A 档 · 4 项；直推 5.00% / 团队 2.00%\r\n5,000 U；B 档 · 5 项；直推 5.00% / 团队 4.00%\r\n10,000 U；C 档 · 6 项；直推 5.00% / 团队 6.00%",
+      "console": "contentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added. Use emitter.setMaxListeners() to increase limit\r\nn @ contentscript.js:14083\r\nu @ contentscript.js:14083\r\ns.addListener @ contentscript.js:14083\r\nZ.on @ contentscript.js:14082\r\ns.once @ contentscript.js:14083\r\nE.pipe @ contentscript.js:14063\r\nB @ contentscript.js:14063\r\nD @ contentscript.js:14063\r\nP @ contentscript.js:14063\r\nO @ contentscript.js:14063\r\nN @ contentscript.js:14063\r\n(anonymous) @ contentscript.js:14083\r\ncall.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\ncontentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 end listeners added. Use emitter.setMaxListeners() to increase limit\r\nn @ contentscript.js:14083\r\nu @ contentscript.js:14083\r\ns.addListener @ contentscript.js:14083\r\nZ.on @ contentscript.js:14082\r\nO @ contentscript.js:14083\r\nB @ contentscript.js:14063\r\nD @ contentscript.js:14063\r\nP @ contentscript.js:14063\r\nO @ contentscript.js:14063\r\nN @ contentscript.js:14063\r\n(anonymous) @ contentscript.js:14083\r\ncall.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"app-init-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"app-init-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14082\r\ntransform @ contentscript.js:14063\r\ni._write @ contentscript.js:14082\r\nI @ contentscript.js:14083\r\nL @ contentscript.js:14083\r\nO.write @ contentscript.js:14083\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"background-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"background-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14082\r\ntransform @ contentscript.js:14063\r\ni._write @ contentscript.js:14082\r\nI @ contentscript.js:14083\r\nL @ contentscript.js:14083\r\nO.write @ contentscript.js:14083\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\napp.js:42 测试执行器启动...\r\napp.js:72 ✓ 加载 14 条用例，当前位置 0\r\napp.js:56 ✓ 初始化完成\r\napp.js:468 ✓ 提交成功：B-001 → 通过",
+      "images": [
+        {
+          "name": "shot-0.png",
+          "file_token": "VCF9b5PmKo3fH1xYm4yjZ5bppNc"
+        }
+      ],
+      "last_fields": {
+        "用例": "B-003 节点参数页档位表内容正确（含 PRD 列头待确认标注）",
+        "结果": "不通过",
+        "优先级": "P0",
+        "负责人": "待指派",
+        "报告人": "Max",
+        "日期": 1789444800000,
+        "截图": [
+          {
+            "file_token": "VCF9b5PmKo3fH1xYm4yjZ5bppNc"
+          }
+        ],
+        "控制台": "contentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added. Use emitter.setMaxListeners() to increase limit\r\nn @ contentscript.js:14083\r\nu @ contentscript.js:14083\r\ns.addListener @ contentscript.js:14083\r\nZ.on @ contentscript.js:14082\r\ns.once @ contentscript.js:14083\r\nE.pipe @ contentscript.js:14063\r\nB @ contentscript.js:14063\r\nD @ contentscript.js:14063\r\nP @ contentscript.js:14063\r\nO @ contentscript.js:14063\r\nN @ contentscript.js:14063\r\n(anonymous) @ contentscript.js:14083\r\ncall.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\ncontentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 end listeners added. Use emitter.setMaxListeners() to increase limit\r\nn @ contentscript.js:14083\r\nu @ contentscript.js:14083\r\ns.addListener @ contentscript.js:14083\r\nZ.on @ contentscript.js:14082\r\nO @ contentscript.js:14083\r\nB @ contentscript.js:14063\r\nD @ contentscript.js:14063\r\nP @ contentscript.js:14063\r\nO @ contentscript.js:14063\r\nN @ contentscript.js:14063\r\n(anonymous) @ contentscript.js:14083\r\ncall.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"app-init-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"app-init-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14082\r\ntransform @ contentscript.js:14063\r\ni._write @ contentscript.js:14082\r\nI @ contentscript.js:14083\r\nL @ contentscript.js:14083\r\nO.write @ contentscript.js:14083\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"background-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"background-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14082\r\ntransform @ contentscript.js:14063\r\ni._write @ contentscript.js:14082\r\nI @ contentscript.js:14083\r\nL @ contentscript.js:14083\r\nO.write @ contentscript.js:14083\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\napp.js:42 测试执行器启动...\r\napp.js:72 ✓ 加载 14 条用例，当前位置 0\r\napp.js:56 ✓ 初始化完成\r\napp.js:468 ✓ 提交成功：B-001 → 通过"
+      }
+    },
+    "B-005": {
+      "result": "通过",
+      "record_id": "recvviNljsUURw",
+      "bug_record_id": null,
+      "submitted_at": 1789485155665,
+      "note": "",
+      "console": "",
+      "images": [],
+      "last_fields": {
+        "用例": "B-005 发售阶段期次表与名额公式",
+        "结果": "通过",
+        "优先级": "P0",
+        "负责人": "待指派",
+        "报告人": "Max",
+        "日期": 1789444800000
+      }
+    },
+    "B-008": {
+      "result": "不通过",
+      "record_id": "recvviNpUCA1z6",
+      "bug_record_id": "recvviNqgtbdJK",
+      "submitted_at": 1789485174700,
+      "note": "期次（只读）+ 本期算力加成(%)\r\n档位 / 权益条数 / 权益内容（C 端逐条展示） /",
+      "console": "contentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added. Use emitter.setMaxListeners() to increase limit\r\nn @ contentscript.js:14083\r\nu @ contentscript.js:14083\r\ns.addListener @ contentscript.js:14083\r\nZ.on @ contentscript.js:14082\r\ns.once @ contentscript.js:14083\r\nE.pipe @ contentscript.js:14063\r\nB @ contentscript.js:14063\r\nD @ contentscript.js:14063\r\nP @ contentscript.js:14063\r\nO @ contentscript.js:14063\r\nN @ contentscript.js:14063\r\n(anonymous) @ contentscript.js:14083\r\ncall.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\ncontentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 end listeners added. Use emitter.setMaxListeners() to increase limit\r\nn @ contentscript.js:14083\r\nu @ contentscript.js:14083\r\ns.addListener @ contentscript.js:14083\r\nZ.on @ contentscript.js:14082\r\nO @ contentscript.js:14083\r\nB @ contentscript.js:14063\r\nD @ contentscript.js:14063\r\nP @ contentscript.js:14063\r\nO @ contentscript.js:14063\r\nN @ contentscript.js:14063\r\n(anonymous) @ contentscript.js:14083\r\ncall.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"app-init-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"app-init-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14082\r\ntransform @ contentscript.js:14063\r\ni._write @ contentscript.js:14082\r\nI @ contentscript.js:14083\r\nL @ contentscript.js:14083\r\nO.write @ contentscript.js:14083\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"background-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"background-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14082\r\ntransform @ contentscript.js:14063\r\ni._write @ contentscript.js:14082\r\nI @ contentscript.js:14083\r\nL @ contentscript.js:14083\r\nO.write @ contentscript.js:14083\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\napp.js:42 测试执行器启动...\r\napp.js:72 ✓ 加载 14 条用例，当前位置 0\r\napp.js:56 ✓ 初始化完成\r\napp.js:468 ✓ 提交成功：B-005 → 通过",
+      "images": [
+        {
+          "name": "shot-0.png",
+          "file_token": "DqUObLN3XoWNXSxC6LNjLMfGpQd"
+        }
+      ],
+      "last_fields": {
+        "用例": "B-008 权益配置：按期次 × 档位维护权益条目",
+        "结果": "不通过",
+        "优先级": "P0",
+        "负责人": "待指派",
+        "报告人": "Max",
+        "日期": 1789444800000,
+        "截图": [
+          {
+            "file_token": "DqUObLN3XoWNXSxC6LNjLMfGpQd"
+          }
+        ],
+        "控制台": "contentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added. Use emitter.setMaxListeners() to increase limit\r\nn @ contentscript.js:14083\r\nu @ contentscript.js:14083\r\ns.addListener @ contentscript.js:14083\r\nZ.on @ contentscript.js:14082\r\ns.once @ contentscript.js:14083\r\nE.pipe @ contentscript.js:14063\r\nB @ contentscript.js:14063\r\nD @ contentscript.js:14063\r\nP @ contentscript.js:14063\r\nO @ contentscript.js:14063\r\nN @ contentscript.js:14063\r\n(anonymous) @ contentscript.js:14083\r\ncall.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\ncontentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 end listeners added. Use emitter.setMaxListeners() to increase limit\r\nn @ contentscript.js:14083\r\nu @ contentscript.js:14083\r\ns.addListener @ contentscript.js:14083\r\nZ.on @ contentscript.js:14082\r\nO @ contentscript.js:14083\r\nB @ contentscript.js:14063\r\nD @ contentscript.js:14063\r\nP @ contentscript.js:14063\r\nO @ contentscript.js:14063\r\nN @ contentscript.js:14063\r\n(anonymous) @ contentscript.js:14083\r\ncall.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"app-init-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"app-init-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14082\r\ntransform @ contentscript.js:14063\r\ni._write @ contentscript.js:14082\r\nI @ contentscript.js:14083\r\nL @ contentscript.js:14083\r\nO.write @ contentscript.js:14083\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"background-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"background-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14082\r\ntransform @ contentscript.js:14063\r\ni._write @ contentscript.js:14082\r\nI @ contentscript.js:14083\r\nL @ contentscript.js:14083\r\nO.write @ contentscript.js:14083\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\napp.js:42 测试执行器启动...\r\napp.js:72 ✓ 加载 14 条用例，当前位置 0\r\napp.js:56 ✓ 初始化完成\r\napp.js:468 ✓ 提交成功：B-005 → 通过"
+      }
+    }
+  }
+}
