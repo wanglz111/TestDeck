@@ -92,6 +92,40 @@
         ],
         "控制台": "contentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added. Use emitter.setMaxListeners() to increase limit\r\nn @ contentscript.js:14083\r\nu @ contentscript.js:14083\r\ns.addListener @ contentscript.js:14083\r\nZ.on @ contentscript.js:14082\r\ns.once @ contentscript.js:14083\r\nE.pipe @ contentscript.js:14063\r\nB @ contentscript.js:14063\r\nD @ contentscript.js:14063\r\nP @ contentscript.js:14063\r\nO @ contentscript.js:14063\r\nN @ contentscript.js:14063\r\n(anonymous) @ contentscript.js:14083\r\ncall.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\ncontentscript.js:14083 MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 end listeners added. Use emitter.setMaxListeners() to increase limit\r\nn @ contentscript.js:14083\r\nu @ contentscript.js:14083\r\ns.addListener @ contentscript.js:14083\r\nZ.on @ contentscript.js:14082\r\nO @ contentscript.js:14083\r\nB @ contentscript.js:14063\r\nD @ contentscript.js:14063\r\nP @ contentscript.js:14063\r\nO @ contentscript.js:14063\r\nN @ contentscript.js:14063\r\n(anonymous) @ contentscript.js:14083\r\ncall.__webpack_require__._LM_.__webpack_require__.__webpack_require__ @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\n(anonymous) @ contentscript.js:14083\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"app-init-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"app-init-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14082\r\ntransform @ contentscript.js:14063\r\ni._write @ contentscript.js:14082\r\nI @ contentscript.js:14083\r\nL @ contentscript.js:14083\r\nO.write @ contentscript.js:14083\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"background-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\ncontentscript.js:14083 ObjectMultiplex - orphaned data for stream \"background-liveness\"\r\nwarn @ contentscript.js:14083\r\n_write @ contentscript.js:14082\r\nR @ contentscript.js:14063\r\nA @ contentscript.js:14063\r\nj.write @ contentscript.js:14063\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14082\r\ntransform @ contentscript.js:14063\r\ni._write @ contentscript.js:14082\r\nI @ contentscript.js:14083\r\nL @ contentscript.js:14083\r\nO.write @ contentscript.js:14083\r\nm @ contentscript.js:14082\r\ns.emit @ contentscript.js:14083\r\nJ @ contentscript.js:14082\r\nK @ contentscript.js:14082\r\nZ.push @ contentscript.js:14082\r\n(anonymous) @ contentscript.js:14063\r\napp.js:42 测试执行器启动...\r\napp.js:72 ✓ 加载 14 条用例，当前位置 0\r\napp.js:56 ✓ 初始化完成\r\napp.js:468 ✓ 提交成功：B-005 → 通过"
       }
+    },
+    "B-010": {
+      "result": "通过",
+      "record_id": "recvviPTwPLzlY",
+      "bug_record_id": null,
+      "submitted_at": 1789485763847,
+      "note": "",
+      "console": "",
+      "images": [],
+      "last_fields": {
+        "用例": "B-010 导入算力：按入金比例自动分配",
+        "结果": "通过",
+        "优先级": "P0",
+        "负责人": "待指派",
+        "报告人": "Max",
+        "日期": 1789444800000
+      }
+    },
+    "B-013": {
+      "result": "不通过",
+      "record_id": "recvviPYmrHKFK",
+      "bug_record_id": "recvviPYNdpqk7",
+      "submitted_at": 1789485784085,
+      "note": "订单总数 / 今日新增 / 待入金 / 已生效\r\n已经生效",
+      "console": "",
+      "images": [],
+      "last_fields": {
+        "用例": "B-013 节点订单列表与状态附加信息",
+        "结果": "不通过",
+        "优先级": "P0",
+        "负责人": "待指派",
+        "报告人": "Max",
+        "日期": 1789444800000
+      }
     }
   }
 }
